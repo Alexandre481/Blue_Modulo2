@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding:0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+
+nav {
+  background-color: #0066ff;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #71aaff;
+}
+
+section#first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+section#first div#img-rocket {
+  display: flex;
+  justify-content: center;
+}
+
+section#first div img {
+  width: 60%;
+}
+
+section#first div p {
+  font-size: 2vw;
+  font-weight: 700;
+  color: #0066ff;
+}
+
+section#first div span {
+  color: #00388b;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+section#first div#first-text {
+  padding: 7rem;
+}
+
+section#sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  background-color: #0066ff;
+}
+
+section#sobre div#IMG_ALE {
+  width: 50%;
+  border-radius: 10%;
+}
+
+section#sobre div#img-perfil {
+  display: flex;
+  justify-content: right;
+}
+
+section#sobre div#texto-sobre p {
+  font-size: 1.1vw;
+  text-align: justify;
+  color: #fff;
+  line-height: 2.5rem;
+}
+
+section#trajetória {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+section#trajetória div {
+  padding: 2rem;
+  margin: 0 1rem 0 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section#trajetória div p {
+  text-align: justify;
+}
+
+section#trajetória div h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+section#trajetória div img {
+  display: block;
+  margin: auto;
+}
+
+section#trajetória div button {
+  border: 1px solid #0066ff;
+  background-color: #fff;
+  color: #0066ff;
+  font-size: 0.8vw;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: 0.6s ease-in-out;
+}
+
+section#trajetória div button:hover {
+  background-color: #0066ff;
+  color: #fff;
+}
+
+section#habilidades {
+  padding: 3rem 10rem 3rem 10rem;
+  background-color: #d7e7ff;
+}
+
+section#Objetivos h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+section#objetivos p {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+section#objetivos div {
+  display: flex;
+  border: 1px solid #0066ff;
+  border-radius: 1rem;
+}
+
+section#objetivos span#html5 {
+  background-color: #0066ff;
+  width: 90%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivoss span#css3 {
+  background-color: #0066ff;
+  width: 95%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivos span#js {
+  background-color: #0066ff;
+  width: 80%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivos span#angular {
+  background-color: #0066ff;
+  width: 90%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivos span#ts {
+  background-color: #0066ff;
+  width: 85%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivos span#python {
+  background-color: #0066ff;
+  width: 80%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivos span#flask {
+  background-color: #0066ff;
+  width: 75%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivos span#sql {
+  background-color: #0066ff;
+  width: 90%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#objetivos span#cloud {
+  background-color: #0066ff;
+  width: 80%;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: end;
+  border-radius: 0.9rem;
+}
+
+section#contato {
+  padding: 3rem 10rem 3rem 10rem;
+  display: grid;
+  place-items: center;
+}
+
+section#contato h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+section#contato form {
+  width: 50%;
+}
+
